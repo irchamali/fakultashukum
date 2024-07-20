@@ -217,67 +217,17 @@
 
 			                data-mobile-device="2" 
 			                data-mobile-device-nav="false" 
-			                data-mobile-device-dots="false">  
+			                data-mobile-device-dots="false">
+
+                            <?php foreach ($members as $member) : ?>
 			                <div class="logo-img">
-			                    <a href="https://rstheme.com">
-			                        <img class="hovers-logos rs-grid-img" src="<?= base_url(''); ?>assets/reno/images/partner/style2/1.png" title="" alt="">
-			                        <img class="mains-logos rs-grid-img " src="<?= base_url(''); ?>assets/reno/images/partner/style2/1.png" title="" alt="">
+			                    <a href="#">
+			                        <img class="hovers-logos rs-grid-img" src="<?= 'assets/backend/images/member/' . $member['member_image']; ?>" title="" alt="">
+			                        <img class="mains-logos rs-grid-img " src="<?= 'assets/backend/images/member/' . $member['member_image']; ?>" title="" alt="">
 			                    </a>
 			                </div>
-			                <div class="logo-img">
-			                    <a href="https://rstheme.com">
-			                        <img class="hovers-logos rs-grid-img" src="<?= base_url(''); ?>assets/reno/images/partner/style2/2.png" title="" alt="">
-			                        <img class="mains-logos rs-grid-img " src="<?= base_url(''); ?>assets/reno/images/partner/style2/2.png" title="" alt="">
-			                    </a>
-			                </div>
-			                <div class="logo-img">
-			                    <a href="https://rstheme.com">
-			                        <img class="hovers-logos rs-grid-img" src="<?= base_url(''); ?>assets/reno/images/partner/style2/3.png" title="" alt="">
-			                        <img class="mains-logos rs-grid-img " src="<?= base_url(''); ?>assets/reno/images/partner/style2/3.png" title="" alt="">
-			                    </a>
-			                </div>
-			                <div class="logo-img">
-			                    <a href="https://rstheme.com">
-			                        <img class="hovers-logos rs-grid-img" src="<?= base_url(''); ?>assets/reno/images/partner/style2/4.png" title="" alt="">
-			                        <img class="mains-logos rs-grid-img " src="<?= base_url(''); ?>assets/reno/images/partner/style2/4.png" title="" alt="">
-			                    </a>
-			                </div>
-			                <div class="logo-img">
-			                    <a href="https://rstheme.com">
-			                        <img class="hovers-logos rs-grid-img" src="<?= base_url(''); ?>assets/reno/images/partner/style2/5.png" title="" alt="">
-			                        <img class="mains-logos rs-grid-img " src="<?= base_url(''); ?>assets/reno/images/partner/style2/5.png" title="" alt="">
-			                    </a>
-			                </div>
-			                <div class="logo-img">
-			                    <a href="https://rstheme.com">
-			                        <img class="hovers-logos rs-grid-img" src="<?= base_url(''); ?>assets/reno/images/partner/style2/6.png" title="" alt="">
-			                        <img class="mains-logos rs-grid-img " src="<?= base_url(''); ?>assets/reno/images/partner/style2/6.png" title="" alt="">
-			                    </a>
-			                </div>
-			                <div class="logo-img">
-			                    <a href="https://rstheme.com">
-			                        <img class="hovers-logos rs-grid-img" src="<?= base_url(''); ?>assets/reno/images/partner/style2/7.png" title="" alt="">
-			                        <img class="mains-logos rs-grid-img " src="<?= base_url(''); ?>assets/reno/images/partner/style2/7.png" title="" alt="">
-			                    </a>
-			                </div>
-			                <div class="logo-img">
-			                    <a href="https://rstheme.com">
-			                        <img class="hovers-logos rs-grid-img" src="<?= base_url(''); ?>assets/reno/images/partner/style2/8.png" title="" alt="">
-			                        <img class="mains-logos rs-grid-img " src="<?= base_url(''); ?>assets/reno/images/partner/style2/8.png" title="" alt="">
-			                    </a>
-			                </div>
-			                <div class="logo-img">
-			                    <a href="https://rstheme.com">
-			                        <img class="hovers-logos rs-grid-img" src="<?= base_url(''); ?>assets/reno/images/partner/style2/9.png" title="" alt="">
-			                        <img class="mains-logos rs-grid-img " src="<?= base_url(''); ?>assets/reno/images/partner/style2/9.png" title="" alt="">
-			                    </a>
-			                </div>
-			                <div class="logo-img">
-			                    <a href="https://rstheme.com">
-			                        <img class="hovers-logos rs-grid-img" src="<?= base_url(''); ?>assets/reno/images/partner/style2/10.png" title="" alt="">
-			                        <img class="mains-logos rs-grid-img " src="<?= base_url(''); ?>assets/reno/images/partner/style2/10.png" title="" alt="">
-			                    </a>
-			                </div>
+                            <?php endforeach; ?>
+			                
 			            </div>
 			        </div>
 			    </div>
