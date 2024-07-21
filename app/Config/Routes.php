@@ -64,9 +64,12 @@ $routes->get('laporan/(:segment)', 'CategoryLapController::index/$1');
 
 // AboutController
 $routes->get('sejarah', 'TtgSejarahController::index');
+$routes->get('vmts', 'TtgVmtsController::index');
+$routes->get('renstra', 'TtgRenstraController::index');
+$routes->get('pengelola', 'TtgPengelolaController::index');
 
 $routes->get('profil', 'AbProfilController::index');
-$routes->get('pengelola', 'AbPengelolaController::index');
+// $routes->get('pengelola', 'AbPengelolaController::index');
 $routes->get('dosen', 'AbDosenController::index');
 $routes->get('kurikulum', 'AbKurikulumController::index');
 $routes->get('peminatan', 'AbPeminatanController::index');
@@ -74,22 +77,13 @@ $routes->get('softwaredevelopment', 'AbP1Controller::index');
 $routes->get('networkengineering', 'AbP2Controller::index');
 $routes->get('intelligentsystem', 'AbP3Controller::index');
 
-$routes->get('about', 'AboutController::index');
-$routes->get('strategymap', 'AbStrategymapController::index');
-$routes->get('milestone', 'AbMilestoneController::index');
-$routes->get('deskripsitugas', 'AbFungtugasController::index');
-$routes->get('strukturorganisasi', 'AbStrukturorgController::index');
-$routes->get('team', 'AbTeamController::index');
-$routes->get('alurkerja', 'AbAlurkerjaController::index');
-$routes->get('monevrutin', 'AbMonevrutinController::index');
-
 // AkreditasiController
 $routes->get('akreditasi', 'AkreditasiController::index');
 
 // Controller pada Sub Menu Formulir
 $routes->get('ami', 'AmiController::index');
 $routes->get('auditnonakademik', 'FauditnonController::index');
-$routes->get('renstra', 'FrenstraController::index');
+// $routes->get('renstra', 'FrenstraController::index');
 $routes->get('renop', 'FrenopController::index');
 $routes->get('lakin', 'FlakinController::index');
 $routes->get('progressreport', 'FprogressController::index');
