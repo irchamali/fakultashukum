@@ -12,10 +12,10 @@
 								Fakultas Hukum Universitas Nahdlatul Ulama Indonesia bertekad untuk membentuk generasi pemimpin, entrepreneur dan pemikir kosmopolit masa depan dalam bidang Hukum.
 							</div>
 							<ul class="footer-social md-mb-30">  
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>                     
-                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>                     
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>                     
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>                      
+                                <li><a href="<?= $site['site_facebook']; ?>"><i class="fab fa-facebook-f"></i></a></li>                     
+                                <li><a href="<?= $site['site_twitter']; ?>"><i class="fa-brands fa-tiktok"></i></a></li>                     
+                                <li><a href="<?= $site['site_instagram']; ?>"><i class="fab fa-instagram"></i></a></li>                      
+                                <!-- <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>                      -->
                           	</ul>
 						</div>
 						<div class="col-lg-3 pl-76 md-pl-15 md-mb-10">
@@ -24,13 +24,13 @@
                                 <li>
                                     <i class="fi fi-rr-phone-call"></i>
                                     <div class="desc">
-                                       <a href="https://wa.me/628975858956">(+62)8975858956</a>
+                                       <a href="https://wa.me/<?= $site['site_wa']; ?>"><?= $site['site_wa']; ?></a>
                                     </div>
                                 </li>
                                 <li>
                                     <i class="fi fi-rr-envelope-plus"></i>
                                     <div class="desc">
-                                        <a href="mailto:fh@unusia.ac.id">fh@unusia.ac.id</a>
+                                        <a href="mailto:<?= $site['site_mail']; ?>"><?= $site['site_mail']; ?></a>
                                     </div>
                                 </li>
                             </ul>

@@ -71,11 +71,11 @@
 										<ul class="rs-contact-info">                   
 											<li>
 					                            <i class="fi fi-rr-envelope-plus"></i>                  
-					                            <a href="mailto:fh@unusia.ac.id">fh@unusia.ac.id</a>               
+					                            <a href="mailto:<?= $site['site_mail']; ?>"><?= $site['site_mail']; ?></a>               
 					                        </li>
 	                                        <li>
                                               	<i class="fi fi-rr-phone-call"></i>                                      
-                                                <a href="https://wa.me/"> +62</a>                   
+                                                <a href="https://wa.me/<?= $site['site_wa']; ?>"> +<?= $site['site_wa']; ?></a>                   
                                             </li>
                                             <!-- <li>
                                               	<i class="fi-rr-map-marker-home"></i>                                      
@@ -88,9 +88,9 @@
 									<div class="toolbar-sl-share">
 										<ul class="clearfix">
 											<li class="opening"> <em><i class="fi fi-rr-time-add"></i> Mon - Fri: 9.00 to 17.00</em> </li>
-											<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>                     
-											<li><a href="#"><i class="fab fa-instagram"></i></a></li>   
-											<li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+											<li><a href="<?= $site['site_facebook']; ?>"><i class="fab fa-facebook-f"></i></a></li>                     
+											<li><a href="<?= $site['site_instagram']; ?>"><i class="fab fa-instagram"></i></a></li>   
+											<li><a href="<?= $site['site_twitter']; ?>"><i class="fa-brands fa-tiktok"></i></a></li>
 											<!-- <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>                  -->
 										</ul>
 									</div>
@@ -126,7 +126,7 @@
 															<li><a href="#">Sejarah</a></li>
 															<li><a href="#">Visi Misi</a></li>
 															<li><a href="#">Renstra</a></li>
-															<li><a href="#">Struktur Organisasi</a></li>
+															<li><a href="#">Pengelola</a></li>
 															<li><a href="https://lppmi.unusia.ac.id/akreditasi">Akreditasi</a></li>
 														</ul>
 													</li>
@@ -210,7 +210,7 @@
 								<div class="col-cell">
 									<div class="expand-btn-inner">
 										<ul>
-                                            <li class="btn-quote"><a class="quote-button" href="#">Live Chat</a></li>
+                                            <li class="btn-quote"><a class="quote-button" href="https://wa.me/<?= $site['site_wa']; ?>">Live Chat</a></li>
 											<li class="humburger">
 											    <a id="nav-expander" class="nav-expander bar" href="#">
 											        <div class="bar">
@@ -268,7 +268,7 @@
 					                    </div>
 					                    <div class="info-content">
 					                        <h4 class="title">Email</h4>
-					                        <em><a href="mailto:fh@unusia.ac.id">fh@unusia.ac.id</a></em>
+					                        <em><a href="mailto:<?= $site['site_mail']; ?>"><?= $site['site_mail']; ?></a></em>
 					                    </div>
 					                 </div>
 					                <div class="address-list">
@@ -277,15 +277,15 @@
 					                    </div>
 					                    <div class="info-content">
 					                      <h4 class="title">Phone</h4>
-					                      <em>+62</em>
+					                      <em><?= $site['site_wa']; ?></em>
 					                    </div>
 					                </div>
 					            </div>
 					            <ul class="social">
-					                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-					                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-					                <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-					                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					                <li><a href="<?= $site['site_facebook']; ?>"><i class="fa fa-facebook"></i></a></li>
+					                <li><a href="<?= $site['site_twitter']; ?>"><i class="fa fa-tiktok"></i></a></li>
+					                <li><a href="<?= $site['site_instagram']; ?>"><i class="fa fa-instagram"></i></a></li>
+					                <!-- <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li> -->
 					            </ul>
 					        </div>
 					    </div>
@@ -312,7 +312,7 @@
 					    			<li><a href="#">Sejarah</a></li>
 									<li><a href="#">Visi Misi</a></li>
 									<li><a href="#">Renstra</a></li>
-									<li><a href="#">Struktur Organisasi</a></li>
+									<li><a href="#">Pengelola</a></li>
 									<li><a href="https://lppmi.unusia.ac.id/akreditasi">Akreditasi</a></li>
 					    		</ul>
 					    	</li>
@@ -406,7 +406,7 @@
 					                  </div>
 					                  <div class="info-content">
 					                      <h4 class="title">Email</h4>
-					                      <em><a href="mailto:fh@unusia.ac.id">fh@unusia.ac.id</a></em>
+					                      <em><a href="mailto:<?= $site['site_mail']; ?>"><?= $site['site_mail']; ?></a></em>
 					                  </div>
 					              </div>
 					              <div class="address-list">
@@ -415,7 +415,7 @@
 					                  </div>
 					                  <div class="info-content">
 					                      <h4 class="title">Phone</h4>
-					                      <em>+62</em>
+					                      <em>+<?= $site['site_wa']; ?></em>
 					                  </div>
 					              </div>
 					          </div>
