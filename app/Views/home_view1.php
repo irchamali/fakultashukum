@@ -245,104 +245,23 @@
 			         	</h2>
 			        </div>
 			        <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="true" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="true" data-md-device="3" data-md-device-nav="false" data-md-device-dots="true">
-			            <div class="blog-item">
+                        <?php foreach ($latest_posts as $post) : ?>
+                        <div class="blog-item">
 			                <div class="image-wrap">
-			                    <a href="blog-single.html"><img src="<?= base_url(''); ?>assets/reno/images/blog/style1/1.jpg" alt=""></a>
+			                    <a href="/post/<?= $post['post_slug']; ?>"><img src="/assets/backend/images/post/<?= $post['post_image']; ?>" alt=""></a>
 			                </div>
 			                <div class="blog-content">
 			                	<ul class="blog-meta">
-	                           		<li class="admin"><i class="fi  fi-rr-user"></i>RSTheme</li>
-	                           	    <li class="date"><i class="fi fi-rr-calendar"></i>23 March 2022</li>
+	                           		<li class="admin"><i class="fi  fi-rr-user"></i><?= $post['user_name']; ?></li>
+	                           	    <li class="date"><i class="fi fi-rr-calendar"></i><time datetime="2022-01-01"><?= date('d M Y', strtotime($post['post_date'])); ?></time></li>
 	                           	</ul>
-			                    <h3 class="blog-title"><a href="blog-single.html">How investing in dependend your business growth.</a></h3>
-			                    <div class="desc">We denounce with righteous indige nation and dislike men who are so...</div>
-			                    <div class="blog-button"><a href="blog-single.html">Read More</a></div>
+			                    <h3 class="blog-title"><a href="/post/<?= $post['post_slug']; ?>"><?= $post['post_title']; ?></a></h3>
+			                    <!-- <div class="desc">We denounce with righteous indige nation and dislike men who are so...</div> -->
+			                    <div class="blog-button"><a href="/post/<?= $post['post_slug']; ?>">Read More</a></div>
 			                </div>
 			            </div>
-			            <div class="blog-item">
-			                <div class="image-wrap">
-			                    <a href="blog-single.html"><img src="<?= base_url(''); ?>assets/reno/images/blog/style1/2.jpg" alt=""></a>
-			                </div>
-			                <div class="blog-content">
-			                	<ul class="blog-meta">
-	                           		<li class="admin"><i class="fi  fi-rr-user"></i>RSTheme</li>
-	                           	    <li class="date"><i class="fi fi-rr-calendar"></i>23 March 2022</li>
-	                           	</ul>
-			                    <h3 class="blog-title"><a href="blog-single.html">How to maintain customers relations disaster. relations disaster.</a></h3>
-			                    <div class="desc">We denounce with righteous indige nation and dislike men who are so...</div>
-			                    <div class="blog-button"><a href="blog-single.html">Read More</a></div>
-			                </div>
-			            </div>
-			            <div class="blog-item">
-			                <div class="image-wrap">
-			                    <a href="blog-single.html"><img src="<?= base_url(''); ?>assets/reno/images/blog/style1/3.jpg" alt=""></a>
-			                </div>
-			                <div class="blog-content">
-			                	<ul class="blog-meta">
-	                           		<li class="admin"><i class="fi  fi-rr-user"></i>RSTheme</li>
-	                           	    <li class="date"><i class="fi fi-rr-calendar"></i>23 March 2022</li>
-	                           	</ul>
-			                    <h3 class="blog-title"><a href="blog-single.html">Productivity tips to avoid burnout when</a></h3>
-			                    <div class="desc">We denounce with righteous indige nation and dislike men who are so...</div>
-			                    <div class="blog-button"><a href="blog-single.html">Read More</a></div>
-			                </div>
-			            </div>
-			            <div class="blog-item">
-			                <div class="image-wrap">
-			                    <a href="blog-single.html"><img src="<?= base_url(''); ?>assets/reno/images/blog/style1/4.jpg" alt=""></a>
-			                </div>
-			                <div class="blog-content">
-			                	<ul class="blog-meta">
-	                           		<li class="admin"><i class="fi  fi-rr-user"></i>RSTheme</li>
-	                           	    <li class="date"><i class="fi fi-rr-calendar"></i>23 March 2022</li>
-	                           	</ul>
-			                    <h3 class="blog-title"><a href="blog-single.html">There is so much to love about this</a></h3>
-			                    <div class="desc">We denounce with righteous indige nation and dislike men who are so...</div>
-			                    <div class="blog-button"><a href="blog-single.html">Read More</a></div>
-			                </div>
-			            </div>
-			            <div class="blog-item">
-			                <div class="image-wrap">
-			                    <a href="blog-single.html"><img src="<?= base_url(''); ?>assets/reno/images/blog/style1/5.jpg" alt=""></a>
-			                </div>
-			                <div class="blog-content">
-			                	<ul class="blog-meta">
-	                           		<li class="admin"><i class="fi  fi-rr-user"></i>RSTheme</li>
-	                           	    <li class="date"><i class="fi fi-rr-calendar"></i>23 March 2022</li>
-	                           	</ul>
-			                    <h3 class="blog-title"><a href="blog-single.html">Business is the activity of making one’s living money.</a></h3>
-			                    <div class="desc">We denounce with righteous indige nation and dislike men who are so...</div>
-			                    <div class="blog-button"><a href="blog-single.html">Read More</a></div>
-			                </div>
-			            </div>
-			            <div class="blog-item">
-			                <div class="image-wrap">
-			                    <a href="blog-single.html"><img src="<?= base_url(''); ?>assets/reno/images/blog/style1/6.jpg" alt=""></a>
-			                </div>
-			                <div class="blog-content">
-			                	<ul class="blog-meta">
-	                           		<li class="admin"><i class="fi  fi-rr-user"></i>RSTheme</li>
-	                           	    <li class="date"><i class="fi fi-rr-calendar"></i>23 March 2022</li>
-	                           	</ul>
-			                    <h3 class="blog-title"><a href="blog-single.html">The most of the company used for business ventures.</a></h3>
-			                    <div class="desc">We denounce with righteous indige nation and dislike men who are so...</div>
-			                    <div class="blog-button"><a href="blog-single.html">Read More</a></div>
-			                </div>
-			            </div>
-    		            <div class="blog-item">
-    		                <div class="image-wrap">
-    		                    <a href="blog-single.html"><img src="<?= base_url(''); ?>assets/reno/images/blog/style1/3.jpg" alt=""></a>
-    		                </div>
-    		                <div class="blog-content">
-    		                	<ul class="blog-meta">
-                               		<li class="admin"><i class="fi  fi-rr-user"></i>RSTheme</li>
-                               	    <li class="date"><i class="fi fi-rr-calendar"></i>23 March 2022</li>
-                               	</ul>
-    		                    <h3 class="blog-title"><a href="blog-single.html">How investing in dependend your business growth.</a></h3>
-    		                    <div class="desc">We denounce with righteous indige nation and dislike men who are so...</div>
-    		                    <div class="blog-button"><a href="blog-single.html">Read More</a></div>
-    		                </div>
-    		            </div>
+                        <?php endforeach; ?>
+			            
 			        </div>
 			    </div>
 			</div>
