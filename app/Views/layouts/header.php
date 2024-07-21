@@ -123,10 +123,10 @@
 													<li class="menu-item-has-children">
 														<a href="#">Tentang</a>
 														<ul class="sub-menu">
-															<li><a href="#">Sejarah</a></li>
-															<li><a href="#">Visi Misi</a></li>
-															<li><a href="#">Renstra</a></li>
-															<li><a href="#">Pengelola</a></li>
+															<li><a href="<?= base_url(''); ?>sejarah">Sejarah</a></li>
+															<li><a href="<?= base_url(''); ?>vmts">Visi Misi</a></li>
+															<li><a href="<?= base_url(''); ?>renstra">Renstra</a></li>
+															<li><a href="<?= base_url(''); ?>pengelola">Pengelola</a></li>
 															<li><a href="https://lppmi.unusia.ac.id/akreditasi">Akreditasi</a></li>
 														</ul>
 													</li>
@@ -140,9 +140,9 @@
 															        <li><a href="https://unusia.ac.id/prodi/s1hukumkeluarga">S1 Hukum Keluarga</a></li>
 															    </ul>
 															</li>
-															<li><a href="#">Penelitian</a></li>
-															<li><a href="#">Pengabdian Masyarakat</a></li>
-															<li><a href="https://lppmi.unusia.ac.id/">Penjaminan Mutu</a></li>
+															<li><a href="<?= base_url(''); ?>riset">Penelitian</a></li>
+															<li><a href="<?= base_url(''); ?>pkm">Pengabdian Masyarakat</a></li>
+															<li><a href="<?= base_url(''); ?>upm">Penjaminan Mutu</a></li>
 														</ul>
 													</li>
 		
@@ -164,22 +164,22 @@
 															        <li><a href="https://sinta.kemdikbud.go.id/departments/authors/8113/BE378CE8-6194-40A8-BEEF-13CBF2F98870/856C29AA-4090-406D-B844-18175D3462D3">S1 Hukum Keluarga</a></li>
 															    </ul>
 															</li>
-															<li><a href="#">Publikasi Dosen</a></li>
+															<li><a href="<?= base_url(''); ?>publikasidosen">Publikasi Dosen</a></li>
 														</ul>
 													</li>
 													<li class="menu-item-has-children">
 														<a href="#">Mahasiswa</a>                                                        
 														<ul class="sub-menu">  
 															<li><a href="https://pmb.unusia.ac.id/">Penerimaan Mahasiswa</a></li>
-															<li><a href="#">Organisasi Mahasiswa</a></li>
-															<li><a href="#">Publikasi Mahasiswa</a></li>
+															<li><a href="<?= base_url(''); ?>ormawa">Organisasi Mahasiswa</a></li>
+															<li><a href="<?= base_url(''); ?>publikasimahasiswa">Publikasi Mahasiswa</a></li>
 														</ul>
 													</li>
 													<li class="menu-item-has-children">
 														<a href="#">Alumni</a>
 														<ul class="sub-menu">  
 															<li><a href="#">Tracer Study</a></li>
-															<li><a href="#">Ikatan Alumni</a></li>
+															<li><a href="<?= base_url(''); ?>ikafhunusia">Ikatan Alumni</a></li>
 															<!-- <li><a href="#">Interaksi</a></li> -->
 														</ul>
 													</li>
@@ -195,8 +195,8 @@
 															    </ul>
 															</li>  
 															<li><a href="https://perpustakaan.unusia.ac.id/">Perpustakaan Digital</a></li>
-															<li><a href="#">Laboratorium Hukum</a></li>
-															<li><a href="#">Konsultasi Hukum</a></li>
+															<li><a href="<?= base_url(''); ?>labhukum">Laboratorium Hukum</a></li>
+															<li><a href="<?= base_url(''); ?>konsulhukum">Konsultasi Hukum</a></li>
 															<li><a href="#">Pusdak Unusia</a></li>
 															<li><a href="https://sianas.unusia.ac.id/">Sianas Unusia</a></li>
 															<li><a href="https://lppmi.unusia.ac.id/pengaduan">Aduan Online</a></li>
@@ -310,10 +310,10 @@
 					    	<li class="menu-item-has-children">
 					    		<a href="#">Tentang</a>
 					    		<ul class="sub-menu">
-					    			<li><a href="#">Sejarah</a></li>
-									<li><a href="#">Visi Misi</a></li>
-									<li><a href="#">Renstra</a></li>
-									<li><a href="#">Pengelola</a></li>
+									<li><a href="<?= base_url(''); ?>sejarah">Sejarah</a></li>
+									<li><a href="<?= base_url(''); ?>vmts">Visi Misi</a></li>
+									<li><a href="<?= base_url(''); ?>renstra">Renstra</a></li>
+									<li><a href="<?= base_url(''); ?>pengelola">Pengelola</a></li>
 									<li><a href="https://lppmi.unusia.ac.id/akreditasi">Akreditasi</a></li>
 					    		</ul>
 					    	</li>
@@ -327,9 +327,9 @@
 											<li><a href="https://unusia.ac.id/prodi/s1hukumkeluarga">S1 Hukum Keluarga</a></li>
 					    			    </ul>
 					    			</li>
-					    			<li><a href="#">Penelitian</a></li>
-									<li><a href="#">Pengabdian Masyarakat</a></li>
-									<li><a href="https://lppmi.unusia.ac.id/">Penjaminan Mutu</a></li>     
+					    			<li><a href="<?= base_url(''); ?>riset">Penelitian</a></li>
+									<li><a href="<?= base_url(''); ?>pkm">Pengabdian Masyarakat</a></li>
+									<li><a href="<?= base_url(''); ?>upm">Penjaminan Mutu</a></li>     
 					    		</ul>
 					    	</li>
 							<li class="menu-item-has-children">
@@ -349,22 +349,22 @@
 											<li><a href="https://sinta.kemdikbud.go.id/departments/authors/8113/BE378CE8-6194-40A8-BEEF-13CBF2F98870/856C29AA-4090-406D-B844-18175D3462D3">S1 Hukum Keluarga</a></li>
 										</ul>
 					    			</li>
-					    			<li><a href="#">Publikasi Dosen</a></li>     
+					    			<li><a href="<?= base_url(''); ?>publikasidosen">Publikasi Dosen</a></li>     
 					    		</ul>
 					    	</li>
 					    	<li class="menu-item-has-children">
 					    		<a href="#">Mahasiswa</a>
 					    		<ul class="sub-menu">
 									<li><a href="https://pmb.unusia.ac.id/">Penerimaan Mahasiswa</a></li>
-									<li><a href="#">Organisasi Mahasiswa</a></li>
-									<li><a href="#">Publikasi Mahasiswa</a></li>
+									<li><a href="<?= base_url(''); ?>ormawa">Organisasi Mahasiswa</a></li>
+									<li><a href="<?= base_url(''); ?>publikasimahasiswa">Publikasi Mahasiswa</a></li>
 					    		</ul>
 					    	</li>
 							<li class="menu-item-has-children">
 					    		<a href="#">Alumni</a>
 					    		<ul class="sub-menu">
 									<li><a href="#">Tracer Study</a></li>
-									<li><a href="#">Ikatan Alumni</a></li>
+									<li><a href="<?= base_url(''); ?>ikafhunusia">Ikatan Alumni</a></li>
 					    		</ul>
 					    	</li>
 							<li class="menu-item-has-children">
@@ -379,8 +379,8 @@
 					    			    </ul>
 					    			</li>
 									<li><a href="https://perpustakaan.unusia.ac.id/">Perpustakaan Digital</a></li>
-									<li><a href="#">Laboratorium Hukum</a></li>
-									<li><a href="#">Konsultasi Hukum</a></li>
+									<li><a href="<?= base_url(''); ?>labhukum">Laboratorium Hukum</a></li>
+									<li><a href="<?= base_url(''); ?>konsulhukum">Konsultasi Hukum</a></li>
 									<li><a href="#">Pusdak Unusia</a></li>
 									<li><a href="https://sianas.unusia.ac.id/">Sianas Unusia</a></li>
 									<li><a href="https://lppmi.unusia.ac.id/pengaduan">Aduan Online</a></li>
