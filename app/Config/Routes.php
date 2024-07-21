@@ -53,10 +53,11 @@ $routes->get('search', 'PostController::search');
 $routes->get('post', 'PostController::index');
 $routes->get('post/(:segment)', 'PostController::index/$1');
 $routes->get('author/(:num)', 'PostController::author/$1');
-$routes->get('tag/(:segment)', 'PostController::tag/$1');
+// $routes->get('tag/(:segment)', 'PostController::tag/$1');
 $routes->post('post/send_comment', 'PostController::send_comment');
 
 // CategoryController
+$routes->get('tag/(:segment)', 'TagController::index/$1');
 $routes->get('category/(:segment)', 'CategoryController::index/$1');
 $routes->get('document/(:segment)', 'CategoryDocsController::index/$1');
 $routes->get('laporan/(:segment)', 'CategoryLapController::index/$1');

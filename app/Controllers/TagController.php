@@ -32,7 +32,7 @@ class TagController extends BaseController
             $keyword = "Tag '$slug' tidak ditemukan";
         } else {
             $posts = $posts->getResultArray();
-            $keyword = "Tag: $slug ";
+            $keyword = "$slug ";
         }
         $data = [
             'site' => $this->siteModel->find(1),
@@ -47,6 +47,6 @@ class TagController extends BaseController
             'posts' => $posts,
             'active' => 'Post'
         ];
-        return view('post_tag', $data);
+        return view('posts/post_tag', $data);
     }
 }

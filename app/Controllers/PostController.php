@@ -89,7 +89,7 @@ class PostController extends BaseController
             'posts' => $posts,
             'active' => 'Post'
         ];
-        return view('post_search', $data);
+        return view('posts/post_search', $data);
     }
     public function send_comment()
     {
@@ -158,7 +158,7 @@ class PostController extends BaseController
             'posts' => $posts,
             'active' => 'Post'
         ];
-        return view('post_tag', $data);
+        return view('posts/post_tag', $data);
     }
     public function author($user_id)
     {
