@@ -7,14 +7,13 @@ use App\Models\AboutModel;
 use App\Models\HomeModel;
 use App\Models\SiteModel;
 
-class AbP2Controller extends BaseController
+class PrgUpmController extends BaseController
 {
     public function __construct()
     {
         $this->homeModel = new HomeModel();
         $this->siteModel = new SiteModel();
         $this->aboutModel = new AboutModel();
-        
     }
     public function index()
     {
@@ -22,10 +21,9 @@ class AbP2Controller extends BaseController
             'site' => $this->siteModel->find(1),
             'home' => $this->homeModel->find(1),
             'about' => $this->aboutModel->find(1),
-            
-            'title' => 'Network Engineering',
-            'active' => 'Network Engineering'
+            'title' => 'Penjaminan Mutu',
+            'active' => 'Tentang'
         ];
-        return view('about/p2_view', $data);
+        return view('program/upm_view', $data);
     }
 }
