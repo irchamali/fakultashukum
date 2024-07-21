@@ -1,20 +1,15 @@
 <?= $this->extend('layouts/template-home'); ?>
 <?= $this->section('content'); ?>            
-            <!-- Breadcrumbs Start -->
-			<div class="rs-breadcrumbs img4">
-			    <!-- <div class="container">
-			        <div class="breadcrumbs-inner">
-			            <h1 class="page-title">
-			                Rilis Berita
-			            </h1>
-			        </div>
-			    </div> -->
-			</div>
-			<!-- Breadcrumbs End -->
-
-			<!-- Blog Section Start -->
-			<div class="rs-inner-blog pt-120 pb-120 md-pt-80 md-pb-80">
+            
+        <!-- Blog Section Start -->
+			<div class="rs-inner-blog pt-50 pb-120 md-pt-50 md-pb-80">
 			    <div class="container">
+                    <div class="sec-title text-center mb-50">
+			         	<span class="sub-text">FH UNUSIA</span>
+			         	<h2 class="title">
+                            <?= $title; ?> 
+			         	</h2>
+			        </div>
 			        <div class="row">
 			            <div class="col-lg-12 col-md-6 md-mb-50">
 			                <div class="row">
@@ -67,6 +62,6 @@
 			        </div> 
 			    </div>
 			</div>
-			<!-- Blog Section End -->
+		<!-- Blog Section End -->
 
 <?= $this->endSection(); ?>

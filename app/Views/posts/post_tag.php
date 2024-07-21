@@ -1,18 +1,7 @@
 <?= $this->extend('layouts/template-home'); ?>
 <?= $this->section('content'); ?>            
-            <!-- Breadcrumbs Start -->
-			<div class="rs-breadcrumbs img4">
-			    <!-- <div class="container">
-			        <div class="breadcrumbs-inner">
-			            <h1 class="page-title">
-			                Rilis Berita
-			            </h1>
-			        </div>
-			    </div> -->
-			</div>
-			<!-- Breadcrumbs End -->
 
-			<!-- Blog Section Start -->
+		<!-- Blog Section Start -->
 			<div class="rs-inner-blog pt-120 pb-120 md-pt-80 md-pb-80">
 			    <div class="container">
                     <div class="sec-title text-center mb-50">
@@ -56,7 +45,6 @@
 			                    <?php endforeach; ?>
 			                    <div class="col-lg-12 text-center pt-40">
                                     <ul class="pagination-part">
-                                        
                                         <!-- <li class="active"><a href="#">1</a></li>
                                         <li><a href="#">2</a></li>
                                         <li><a class="next-page" href="#">Next</a></li> -->
@@ -68,6 +56,6 @@
 			        </div> 
 			    </div>
 			</div>
-			<!-- Blog Section End -->
+		<!-- Blog Section End -->
 
 <?= $this->endSection(); ?>

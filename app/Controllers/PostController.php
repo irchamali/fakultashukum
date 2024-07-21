@@ -64,7 +64,7 @@ class PostController extends BaseController
             'title' => 'Post',
             'active' => 'Post'
         ];
-        return view('post_detailx', $data);
+        return view('posts/post_detail', $data);
     }
     public function search()
     {
@@ -78,7 +78,7 @@ class PostController extends BaseController
             $keyword = "Keyword '$query' tidak ditemukan";
         } else {
             $posts = $result->getResultArray();
-            $keyword = "Keyword: $query ";
+            $keyword = "$query ";
         }
         $data = [
             'site' => $this->siteModel->find(1),
