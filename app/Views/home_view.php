@@ -1,239 +1,270 @@
-<?= $this->extend('layout/template-home'); ?>
+<?= $this->extend('layouts/template-home'); ?>
 <?= $this->section('content'); ?>
 
-    <section class="home-section home-parallax home-fade home-full-height bg-dark-60 agency-page-header" id="home" data-background="assets/titan/images/agency/agency_bg.jpg">
-        <div class="titan-caption">
-          <div class="caption-content">
-            <div class="font-alt mb-30 titan-title-size-1">Teknik Informatika Unusia</div>
-            <div class="font-alt mb-40 titan-title-size-3">Kuliah <span class="rotate">Komputasi | Sains Data | Pemrograman | Jaringan</span>
-            </div><a class="section-scroll btn btn-border-w btn-circle" href="#profil">Learn More</a>
-          </div>
-        </div>
-      </section>
-      <div class="main">
-      <section class="module" id="alt-features">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Teknik Informatika</h2>
-                <div class="module-subtitle font-serif">Kenali lebih dekat ranah keilmuan atau area pengetahuan yang diajarkan pada bidang Teknik Informatika atau Ilmu Komputer.</div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-6 col-md-3 col-lg-3">
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><span class="icon-strategy"></span></div>
-                  <h3 class="alt-features-title font-alt">Data System</h3>terkait dengan pengetahuan yang mempelajari sistem ke-“data”-an sebagai atom konteks terkecil dalam sebuah lingkungan berbasis informatika;
-                </div>
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><span class="icon-tools-2"></span></div>
-                  <h3 class="alt-features-title font-alt">Algorithm</h3>terkait dengan pengetahuan berfikir secara logis dan terstruktur dalam rangka memecahkan permasalahan tertentu atau mencapai obyektif tertentu;
-                </div>
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><span class="icon-target"></span></div>
-                  <h3 class="alt-features-title font-alt">Program Building</h3>terkait dengan kemampuan membangun program sebagai suatu perangkat lunak yang dapat menjalankan fungsi spesifik tertentu;
-                </div>
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><span class="icon-tools"></span></div>
-                  <h3 class="alt-features-title font-alt">Computer Application</h3>terkait dengan pengetahuan dan kemampuan menggabungkan sejumlah modul-modul program dalam rangka membuat sebuah aplikasi dengan fitur-fitur yang diinginkan;
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
-                <div class="alt-services-image align-center"><img src="assets/titan/images/promo.png" alt="Feature Image"></div>
-              </div>
-              <div class="col-sm-6 col-md-3 col-lg-3">
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><span class="icon-camera"></span></div>
-                  <h3 class="alt-features-title font-alt">Information System</h3>terkait dengan pengetahuan membangun sebuah sistem informasi yang terdiri dari komponen-komponen yang terkait satu dengan lainnya dalam sebuah lingkungan yang holistik;
-                </div>
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><span class="icon-mobile"></span></div>
-                  <h3 class="alt-features-title font-alt">Computer and Device</h3>terkait dengan pemahaman terhadap cara kerja mesin komputasi beserta piranti lain pendukungnya;
-                </div>
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><span class="icon-linegraph"></span></div>
-                  <h3 class="alt-features-title font-alt">Intelligent System</h3>terkait dengan pemahaman dalam merancang dan membangun sistem cerdas untuk berbagai kebutuhan aktivitas kehidupan manusia yang memberikan nilai tambah;
-                </div>
-                <div class="alt-features-item">
-                  <div class="alt-features-icon"><span class="icon-basket"></span></div>
-                  <h3 class="alt-features-title font-alt">Network and Communication</h3>terkait dengan pengetahuan mengenai seluk beluk jejaring komputer beserta mekanisme protokol komunikasinya;
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="module bg-dark-60" id="profil" data-background="assets/titan/images/section-6.jpg">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="video-box">
-                  <div class="video-box-icon"><a class="video-pop-up" href="https://www.youtube.com/watch?v=yPGNLD3cVLs"><span class="icon-video"></span></a></div>
-                  <div class="video-title font-alt">Video Profil</div>
-                  <div class="video-subtitle font-alt">Watch the video about our study program</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+			<!-- Banner Start -->
+			<div class="rs-banner banner-main-home">
+				<div class="banner-overlay"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-7">
+							<div class="content-wrap">
+								<!-- <div class="banner-box wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="0s"></div> -->
+								<span class="sub-text wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0s">FH UNUSIA</span>
+								<h1 class="title wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.4s">Fakultas Hukum</h1>
+								<p class="description wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.8s">
+									Universitas Nahdlatul Ulama Indonesia
+								</p>
+								<div class="btn-part mt-35 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.2s">
+								    <a class="readon learn-work" href="#">Read More<i class="fa fa fa-balance-scale"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Banner End -->
+		
+			<!-- Why Choose Start -->
+			
+			<!-- Why Choose End -->
 
-        <section class="module" id="news">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Latest posts</h2>
-              </div>
-            </div>
-            <div class="row multi-columns-row post-columns">
-              <?php foreach ($latest_posts as $post) : ?>
-                <div class="col-sm-6 col-md-4 col-lg-4">
-                  <div class="post mb-20">
-                    <div class="post-thumbnail"><a href="/post/<?= $post['post_slug']; ?>"><img src="/assets/backend/images/post/<?= $post['post_image']; ?>" alt="Blog-post Thumbnail"/></a></div>
-                    <div class="post-header font-alt">
-                      <h2 class="post-title"><a href="/post/<?= $post['post_slug']; ?>"><?= $post['post_title']; ?></a></h2>
-                      <div class="post-meta">By&nbsp;<a href=""><?= $post['user_name']; ?></a>&nbsp;| <time datetime="2022-01-01"><?= date('d M Y', strtotime($post['post_date'])); ?></time> 
-                      </div>
-                    </div>
-                    <div class="post-entry">
-                      <!-- <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p> -->
-                    </div>
-                    <div class="post-more"><a class="more-link" href="#">Read more</a></div>
-                  </div>
-                </div>
-              <?php endforeach; ?>
-              
-            </div>
-          </div>
-        </section>
+			<!-- Services Section Start -->
+			<div class="rs-services services-style1 pt-120 pb-120 md-pt-80 md-pb-80">
+			    <div class="container">
+			    	<div class="sec-title text-center mb-50 md-mb-25">
+			    		<span class="sub-text">FH UNUSIA</span>
+			    		<h2 class="title">
+			    			Fakultas Hukum
+			    		</h2>
+			    	</div>
+			    	<div class="row">
+			    		<div class="col-lg-4 col-md-6 mb-20">
+			    			<div class="services-item ser-bg2">
+			    				<div class="services-wrap">
+			    					<div class="services-icon">
+			    						<img src="<?= base_url(''); ?>assets/reno/images/services/style1/2.png" alt="Services">
+			    					</div>
+			    					<div class="services-content">
+			    						<h3 class="title"><a href="#">Pendidikan</a></h3>
+			    						<p class="services-txt">Program pendidikan kami berfokus pada pengembangan kompetensi dan keterampilan yang relevan dengan kebutuhan industri dan masyarakat.</p>
+			    					</div>
+			    				</div>
+			    			</div>
+			    		</div>
+			    		<div class="col-lg-4 col-md-6 mb-20">
+			    			<div class="services-item ser-bg3">
+			    				<div class="services-wrap">
+			    					<div class="services-icon">
+			    						<img src="<?= base_url(''); ?>assets/reno/images/services/style1/3.png" alt="Services">
+			    					</div>
+			    					<div class="services-content">
+			    						<h3 class="title"><a href="#">Penelitian</a></h3>
+			    						<p class="services-txt">Kami berdedikasi untuk menghasilkan penelitian berkualitas tinggi yang berkontribusi pada pengetahuan global bidang hukum.</p>
+			    					</div>
+			    				</div>
+			    			</div>
+			    		</div>
+			    		<div class="col-lg-4 col-md-6 md-mb-20">
+			    			<div class="services-item ser-bg4">
+			    				<div class="services-wrap">
+			    					<div class="services-icon">
+			    						<img src="<?= base_url(''); ?>assets/reno/images/services/style1/4.png" alt="Services">
+			    					</div>
+			    					<div class="services-content">
+			    						<h3 class="title"><a href="#">Pengabdian</a></h3>
+			    						<p class="services-txt">Pengabdian kami berorientasi pada pemberdayaan masyarakat melalui program-program yang berkelanjutan dan berdampak positif.</p>
+			    					</div>
+			    				</div>
+			    			</div>
+			    		</div>
+			    		
+			    	</div>
+			    </div>
+			</div>
+			<!-- Services Section End -->
 
-        <!-- <section class="module">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6">
-                <h4 class="font-alt mb-30">Frequently Asked Questions</h4>
-                <div class="panel-group" id="accordion">
-                  <div class="panel panel-default">
-                    <div class="panel-heading">
-                      <h4 class="panel-title font-alt"><a data-toggle="collapse" data-parent="#accordion" href="#support1">Support Question 1</a></h4>
-                    </div>
-                    <div class="panel-collapse collapse in" id="support1">
-                      <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="panel panel-default">
-                    <div class="panel-heading">
-                      <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support2">Support Question 2</a></h4>
-                    </div>
-                    <div class="panel-collapse collapse" id="support2">
-                      <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="panel panel-default">
-                    <div class="panel-heading">
-                      <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support3">Support Question 3</a></h4>
-                    </div>
-                    <div class="panel-collapse collapse" id="support3">
-                      <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="panel panel-default">
-                    <div class="panel-heading">
-                      <h4 class="panel-title font-alt"><a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#support4">Support Question 4</a></h4>
-                    </div>
-                    <div class="panel-collapse collapse" id="support4">
-                      <div class="panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <h4 class="font-alt mb-30">Our Expertises</h4>
-                <h6 class="font-alt"><span class="icon-tools-2"></span> Development
-                </h6>
-                <div class="progress">
-                  <div class="progress-bar pb-dark" aria-valuenow="60" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="font-alt"></span></div>
-                </div>
-                <h6 class="font-alt"><span class="icon-strategy"></span> Branding
-                </h6>
-                <div class="progress">
-                  <div class="progress-bar pb-dark" aria-valuenow="80" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="font-alt"></span></div>
-                </div>
-                <h6 class="font-alt"><span class="icon-target"></span> Marketing
-                </h6>
-                <div class="progress">
-                  <div class="progress-bar pb-dark" aria-valuenow="50" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="font-alt"></span></div>
-                </div>
-                <h6 class="font-alt"><span class="icon-camera"></span> Photography
-                </h6>
-                <div class="progress">
-                  <div class="progress-bar pb-dark" aria-valuenow="90" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="font-alt"></span></div>
-                </div>
-                <h6 class="font-alt"><span class="icon-pencil"></span> Designing
-                </h6>
-                <div class="progress">
-                  <div class="progress-bar pb-dark" aria-valuenow="70" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="font-alt"></span></div>
-                </div>
-                <h6 class="font-alt"><span class="icon-lifesaver"></span> Dedication
-                </h6>
-                <div class="progress">
-                  <div class="progress-bar pb-dark" aria-valuenow="100" role="progressbar" aria-valuemin="0" aria-valuemax="100"><span class="font-alt"></span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> -->
+			<!-- Counter Section Start -->
+			<div id="rs-counter" class="rs-counter counter-style1 bg5 pt-160 pb-120 md-pt-75 md-pb-75">
+	        	<div class="container custom">
+	        		<div class="row">
+	        			<div class="col-lg-4 col-md-6 md-mb-30">
+	        				<div class="rs-counter-list wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0s">
+	        					<div class="counter-box"></div>	       
+							    <div class="count-text">
+							    	<div class="count-number">
+							    		<span class="rs-count odometer" data-count="18">18</span>
+							    		<span class="prefix"></span>			    	
+							    	</div>
+							    	<span class="title"> Dosen</span>	
+							    </div>
+							</div>
+	        			</div>
+	        			<div class="col-lg-4 col-md-6 sm-mb-30">
+	        				<div class="rs-counter-list wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
+	        					<div class="counter-box con-blue"></div>	       
+							    <div class="count-text">
+							    	<div class="count-number">
+							    		<span class="rs-count odometer" data-count="438">438</span>
+							    		<span class="prefix">+</span>			    	
+							    	</div>
+							    	<span class="title">Mahasiswa</span>	
+							    </div>
+							</div>
+	        			</div>
+	        			<div class="col-lg-4 col-md-6">
+	        				<div class="rs-counter-list wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">
+	        					<div class="counter-box con-yellow"></div>
+							    <div class="count-text">
+							    	<div class="count-number">
+							    		<span class="rs-count odometer" data-count="6">6</span>
+							    		<span class="prefix"></span>			    	
+							    	</div>
+							    	<span class="title">Pengelola</span>	
+							    </div>
+							</div>
+	        			</div>
+	        		</div>
+	        	</div>
+			</div>
+			<!-- Counter Section End -->
 
-        <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="assets/titan/images/testimonial_bg.jpg">
-          <div class="testimonials-slider pt-140 pb-140">
-            <ul class="slides">
-            <?php foreach ($testimonials as $testi) : ?>
-              <li>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <div class="module-icon"><span class="icon-quote"></span></div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2">
-                      <blockquote class="testimonial-text font-alt"><?= $testi['testimonial_content']; ?></blockquote>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-4 col-sm-offset-4">
-                      <div class="testimonial-author">
-                        <div class="testimonial-caption font-alt">
-                          <div class="testimonial-title"><?= $testi['testimonial_name']; ?></div>
-                          <div class="testimonial-descr"><?= $testi['testimonial_angkatan']; ?></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            <?php endforeach; ?>
-            </ul>
-          </div>
-        </section>
-        <section class="module-small">
-          <div class="container">
-            <div class="row client">
-              <div class="owl-carousel text-center" data-items="6" data-pagination="false" data-navigation="false">
-              <?php foreach ($members as $member) : ?>
-                <div class="owl-item">
-                  <div class="col-sm-12">
-                    <div class="client-logo"><img src="<?= 'assets/backend/images/member/' . $member['member_image']; ?>" alt="Client Logo"/></div>
-                  </div>
-                </div>
-              <?php endforeach; ?>
-              </div>
-            </div>
-          </div>
-        </section>
-        
-        <hr class="divider-w">
+			<!-- Project Start -->
+			<div class="rs-project project-style1 pt-120 pb-120 md-pt-80 md-pb-80">
+				<div class="container">
+					<div class="sec-title text-center mb-55 md-mb-25">
+						<span class="sub-text">FH UNUSIA</span>
+						<h2 class="title">
+							Prestasi
+						</h2>
+					</div>
+					<div class="row">
+						<div class="col-lg-4 col-md-6 mb-30">
+							<div class="project-item">
+							    <div class="project-img">
+							        <a href="#"><img src="<?= base_url(''); ?>assets/reno/images/project/style1/1.jpg" alt="images"></a>
+							    </div>
+							    <div class="project-content"> 
+							        <div class="project-inner">
+							        	<span class="category"><a href="#">Mahasiswa</a></span>
+							            <h3 class="title"><a href="#">Prestasi X</a></h3>
+							        </div>
+							    </div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 mb-30">
+							<div class="project-item">
+							    <div class="project-img">
+							        <a href="#"><img src="<?= base_url(''); ?>assets/reno/images/project/style1/2.jpg" alt="images"></a>
+							    </div>
+							    <div class="project-content"> 
+							        <div class="project-inner">
+							        	<span class="category"><a href="#">Dosen</a></span>
+							            <h3 class="title"><a href="#">Prestasi Y</a></h3>
+							        </div>
+							    </div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 mb-30">
+							<div class="project-item">
+							    <div class="project-img">
+							        <a href="#"><img src="<?= base_url(''); ?>assets/reno/images/project/style1/3.jpg" alt="images"></a>
+							    </div>
+							    <div class="project-content"> 
+							        <div class="project-inner">
+							        	<span class="category"><a href="#">Alumni</a></span>
+							            <h3 class="title"><a href="#">Prestasi Z</a></h3>
+							        </div>
+							    </div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<!-- Project End -->
+
+			<!-- Testimonial Section Start -->
+			<div class="rs-testimonial testimonial-style2 bg17 pt-120 pb-100 md-pt-80 md-pb-70">
+			    
+			    <!-- Partner Section Start -->
+			    <div class="rs-partner partner-style1">
+					
+			        <div class="container custom">
+			            <div class="rs-carousel owl-carousel" 
+			                data-loop="true" 
+			                data-items="5" 
+			                data-margin="30" 
+			                data-autoplay="true" 
+			                data-hoverpause="true" 
+			                data-autoplay-timeout="5000" 
+			                data-smart-speed="800" 
+			                data-dots="false" 
+			                data-nav="false" 
+			                data-nav-speed="false" 
+
+			                data-md-device="5" 
+			                data-md-device-nav="false" 
+			                data-md-device-dots="false" 
+			                data-center-mode="false"
+
+			                data-ipad-device2="3" 
+			                data-ipad-device-nav2="false" 
+			                data-ipad-device-dots2="true"
+
+			                data-ipad-device="3" 
+			                data-ipad-device-nav="false" 
+			                data-ipad-device-dots="false" 
+
+			                data-mobile-device="2" 
+			                data-mobile-device-nav="false" 
+			                data-mobile-device-dots="false">
+
+                            <?php foreach ($members as $member) : ?>
+			                <div class="logo-img">
+			                    <a href="#">
+			                        <img class="hovers-logos rs-grid-img" src="<?= 'assets/backend/images/member/' . $member['member_image']; ?>" title="" alt="">
+			                        <img class="mains-logos rs-grid-img " src="<?= 'assets/backend/images/member/' . $member['member_image']; ?>" title="" alt="">
+			                    </a>
+			                </div>
+                            <?php endforeach; ?>
+			                
+			            </div>
+			        </div>
+			    </div>
+			    <!-- Partner Section End -->
+			</div>
+			<!-- Testimonial Section End -->
+
+			<!-- Blog Section Start -->
+			<div id="rs-blog" class="rs-blog blog-main-home pt-120 pb-120 md-pt-80 md-pb-80">
+			    <div class="container">  
+			        <div class="sec-title text-center mb-50">
+			         	<span class="sub-text">FH UNUSIA</span>
+			         	<h2 class="title">
+			         		Latest posts
+			         	</h2>
+			        </div>
+			        <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="true" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="true" data-md-device="3" data-md-device-nav="false" data-md-device-dots="true">
+                        <?php foreach ($latest_posts as $post) : ?>
+                        <div class="blog-item">
+			                <div class="image-wrap">
+			                    <a href="/post/<?= $post['post_slug']; ?>"><img src="/assets/backend/images/post/<?= $post['post_image']; ?>" alt=""></a>
+			                </div>
+			                <div class="blog-content">
+			                	<ul class="blog-meta">
+	                           		<li class="admin"><i class="fi  fi-rr-user"></i><?= $post['user_name']; ?></li>
+	                           	    <li class="date"><i class="fi fi-rr-calendar"></i><time datetime="2022-01-01"><?= date('d M Y', strtotime($post['post_date'])); ?></time></li>
+	                           	</ul>
+			                    <h3 class="blog-title"><a href="/post/<?= $post['post_slug']; ?>"><?= $post['post_title']; ?></a></h3>
+			                    <!-- <div class="desc">We denounce with righteous indige nation and dislike men who are so...</div> -->
+			                    <div class="blog-button"><a href="/post/<?= $post['post_slug']; ?>">Read More</a></div>
+			                </div>
+			            </div>
+                        <?php endforeach; ?>
+			            
+			        </div>
+			    </div>
+			</div>
+			<!-- Blog Section End -->
 
 <?= $this->endSection(); ?>

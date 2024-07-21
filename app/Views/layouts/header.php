@@ -191,6 +191,7 @@
 															    <ul class="sub-menu">
 															        <li><a href="<?= base_url(''); ?>post">Rilis Berita</a></li>
 															        <li><a href="<?= base_url(''); ?>category/pengumuman">Pengumuman</a></li>
+																	<li><a href="<?= base_url(''); ?>category/acara">Acara</a></li>
 															    </ul>
 															</li>  
 															<li><a href="https://perpustakaan.unusia.ac.id/">Perpustakaan Digital</a></li>
@@ -372,8 +373,9 @@
 									<li class="last-item menu-item-has-children">
 					    			    <a href="#">Informasi</a>
 					    			    <ul class="sub-menu">
-											<li><a href="">Rilis Berita</a></li>
-											<li><a href="">Pengumuman</a></li>
+											<li><a href="<?= base_url(''); ?>post">Rilis Berita</a></li>
+											<li><a href="<?= base_url(''); ?>category/pengumuman">Pengumuman</a></li>
+											<li><a href="<?= base_url(''); ?>category/acara">Acara</a></li>
 					    			    </ul>
 					    			</li>
 									<li><a href="https://perpustakaan.unusia.ac.id/">Perpustakaan Digital</a></li>

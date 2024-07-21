@@ -38,6 +38,6 @@ class HomeController extends BaseController
             'title' => 'Home',
             'active' => 'Home'
         ];
-        return view('home_view1', $data);
+        return view('home_view', $data);
     }
 }

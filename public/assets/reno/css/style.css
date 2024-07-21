@@ -6084,7 +6084,20 @@ Video CSS
 }
 .rs-inner-blog .blog-item .blog-img {
   position: relative;
+  z-index: 1;
+  overflow: hidden;
 }
+.rs-inner-blog .blog-item .blog-img a img {
+  /* border-radius: 10px; */
+  width: 100%; 
+  transition: 1.3s all ease;
+  border-radius: 0px;
+  /* tambahan */
+}
+.rs-inner-blog .blog-item:hover .blog-img a img {
+  transform: scale(1.2);
+}
+
 .rs-inner-blog .blog-item .blog-img .post-categories {
   position: absolute;
   z-index: 11;
@@ -6108,9 +6121,6 @@ Video CSS
 .rs-inner-blog .blog-item .blog-img .post-categories li a:hover {
   border-radius: 0 15px 0 15px;
   background: #FF6D00;
-}
-.rs-inner-blog .blog-item .blog-img a img {
-  border-radius: 10px;
 }
 .rs-inner-blog .blog-item .blog-content {
   padding: 30px 15px 20px;
