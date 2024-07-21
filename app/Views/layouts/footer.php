@@ -38,8 +38,8 @@
 						<div class="col-lg-3 pl-75 md-pl-15 md-mb-10">
 							<h3 class="footer-title">Program Studi</h3>
 							<ul class="site-map">
-                                <li><a href="#">S1 Ilmu Hukum</a></li>
-                                <li><a href="#">S1 Hukum Keluarga</a></li>
+                                <li><a href="https://unusia.ac.id/prodi/S1ilmuhukum">S1 Ilmu Hukum</a></li>
+                                <li><a href="https://unusia.ac.id/prodi/S1hukumkeluarga">S1 Hukum Keluarga</a></li>
                             </ul>
 						</div>
 						
