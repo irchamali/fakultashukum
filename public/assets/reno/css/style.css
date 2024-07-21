@@ -2502,16 +2502,16 @@ body .search-modal .close:hover {
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center center !important;
-  border-radius: 150px 0px 0px 0px;
+  border-radius: 120px 0px 0px 0px;
 }
 .rs-breadcrumbs .breadcrumbs-inner {
-  padding: 205px 10px 205px 10px;
+  padding: 105px 10px 105px 10px;
 }
 .rs-breadcrumbs .breadcrumbs-inner .page-title {
-  font-size: 60px;
-  line-height: 70px;
-  font-weight: 700;
-  margin-bottom: 6px;
+  font-size: 50px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-bottom: 2px;
   color: #ffffff;
   position: relative;
   z-index: 1;

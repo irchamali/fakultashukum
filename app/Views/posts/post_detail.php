@@ -47,11 +47,9 @@
 			                    <div class="search-widget mb-50">
 			                        <div class="search-wrap">
                                         <form action="/search" method="GET" class="mt-3">
-                                            <input type="text" name="search_query" placeholder="Search..." required>
-                                            <button type="submit"><i class="bi bi-search"></i></button>
+											<input type="search" placeholder="Search..." name="search_query" class="search-input" required>
+											<button type="submit" value="Search"><br><i class="flaticon-search"></i></button>
                                         </form>
-			                            <!-- <input action="/search" method="GET" type="search" placeholder="Searching..." name="s" class="search-input" value="">
-			                            <button type="submit" value="Search"><i class="flaticon-search"></i></button> -->
 			                        </div>
 			                    </div>
 			                    <div class="recent-posts mb-50">

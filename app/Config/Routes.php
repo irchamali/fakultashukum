@@ -63,6 +63,8 @@ $routes->get('document/(:segment)', 'CategoryDocsController::index/$1');
 $routes->get('laporan/(:segment)', 'CategoryLapController::index/$1');
 
 // AboutController
+$routes->get('sejarah', 'TtgSejarahController::index');
+
 $routes->get('profil', 'AbProfilController::index');
 $routes->get('pengelola', 'AbPengelolaController::index');
 $routes->get('dosen', 'AbDosenController::index');
