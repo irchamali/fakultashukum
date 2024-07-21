@@ -179,7 +179,7 @@
 														<a href="#">Alumni</a>
 														<ul class="sub-menu">  
 															<li><a href="#">Tracer Study</a></li>
-															<li><a href="<?= base_url(''); ?>ikafhunusia">Ikatan Alumni</a></li>
+															<li><a href="<?= base_url(''); ?>alumni">Ikatan Alumni</a></li>
 															<!-- <li><a href="#">Interaksi</a></li> -->
 														</ul>
 													</li>
@@ -364,7 +364,7 @@
 					    		<a href="#">Alumni</a>
 					    		<ul class="sub-menu">
 									<li><a href="#">Tracer Study</a></li>
-									<li><a href="<?= base_url(''); ?>ikafhunusia">Ikatan Alumni</a></li>
+									<li><a href="<?= base_url(''); ?>alumni">Ikatan Alumni</a></li>
 					    		</ul>
 					    	</li>
 							<li class="menu-item-has-children">

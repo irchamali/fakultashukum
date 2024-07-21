@@ -80,7 +80,7 @@ $routes->get('upm', 'PrgUpmController::index');
 $routes->get('publikasidosen', 'PudosController::index');
 $routes->get('publikasimahasiswa', 'PumahController::index');
 $routes->get('ormawa', 'XOrmawaController::index');
-$routes->get('ikafhunusia', 'XIkaController::index');
+$routes->get('alumni', 'XAlumniController::index');
 $routes->get('labhukum', 'XLabController::index');
 $routes->get('konsulhukum', 'XKonsulController::index');
 
