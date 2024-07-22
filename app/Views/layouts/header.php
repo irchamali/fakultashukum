@@ -152,6 +152,15 @@
 															        <li><a href="https://unusia.ac.id/prodi/s1hukumkeluarga">S1 Hukum Keluarga</a></li>
 															    </ul>
 															</li>
+															<li class="last-item menu-item-has-children">
+															    <a href="#">Dokumen Fakultas <i class="fi fi-rr-plus-small"></i></a>
+															    <ul class="sub-menu">
+															        <li><a href="">Semua dokumen</a></li>
+															        <li><a href="">Peraturan</a></li>
+																	<li><a href="">SK</a></li>
+																	<li><a href="">SOP</a></li>
+															    </ul>
+															</li>
 															<li><a href="<?= base_url(''); ?>riset">Penelitian</a></li>
 															<li><a href="<?= base_url(''); ?>pkm">Pengabdian Masyarakat</a></li>
 															<li><a href="<?= base_url(''); ?>upm">Penjaminan Mutu</a></li>
@@ -337,6 +346,15 @@
 					    			    <ul class="sub-menu">
 											<li><a href="https://unusia.ac.id/prodi/s1ilmuhukum">S1 Ilmu Hukum</a></li>
 											<li><a href="https://unusia.ac.id/prodi/s1hukumkeluarga">S1 Hukum Keluarga</a></li>
+					    			    </ul>
+					    			</li>
+									<li class="last-item menu-item-has-children">
+					    			    <a href="#">Dokumen Fakultas</a>
+					    			    <ul class="sub-menu">
+											<li><a href="">Semua Dokumen</a></li>
+											<li><a href="">Peraturan</a></li>
+											<li><a href="">SK</a></li>
+											<li><a href="">SOP</a></li>
 					    			    </ul>
 					    			</li>
 					    			<li><a href="<?= base_url(''); ?>riset">Penelitian</a></li>

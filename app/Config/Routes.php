@@ -59,8 +59,14 @@ $routes->post('post/send_comment', 'PostController::send_comment');
 // CategoryController
 $routes->get('tag/(:segment)', 'TagController::index/$1');
 $routes->get('category/(:segment)', 'CategoryController::index/$1');
-$routes->get('document/(:segment)', 'CategoryDocsController::index/$1');
+$routes->get('dokumen/(:segment)', 'CategoryDocsController::index/$1');
 $routes->get('laporan/(:segment)', 'CategoryLapController::index/$1');
+
+// Publikasi Controller
+$routes->get('publikasidosen', 'PudosController::index');
+$routes->get('publikasimahasiswa', 'PumahController::index');
+$routes->get('publikasidosen/(:segment)', 'CategoryPudosController::index/$1');
+$routes->get('publikasimahasiswa/(:segment)', 'CategoryLapController::index/$1');
 
 // AboutController
 $routes->get('sejarah', 'TtgSejarahController::index');
@@ -77,15 +83,14 @@ $routes->get('akreditasi', 'AkreditasiController::index');
 $routes->get('riset', 'PrgRisetController::index');
 $routes->get('pkm', 'PrgPkmController::index');
 $routes->get('upm', 'PrgUpmController::index');
-$routes->get('publikasidosen', 'PudosController::index');
-$routes->get('publikasimahasiswa', 'PumahController::index');
+
 $routes->get('ormawa', 'XOrmawaController::index');
 $routes->get('alumni', 'XAlumniController::index');
 $routes->get('labhukum', 'XLabController::index');
 $routes->get('konsulhukum', 'XKonsulController::index');
 
 // DocumentController
-$routes->get('document', 'DocumentController::index');
+$routes->get('dokumen', 'DocumentController::index');
 
 // LaporanController
 $routes->get('laporan', 'LaporanController::index');
@@ -161,12 +166,26 @@ $routes->group('admin', ['filter' => 'authadmin'], static function ($routes) {
         $routes->put('', 'Admin\DocsAdminController::update');
         $routes->delete('', 'Admin\DocsAdminController::delete');
     });
+    // Publikasi Route
+    $routes->group('publikasi', static function ($routes) {
+        $routes->get('', 'Admin\PudosAdminController::index');
+        $routes->post('', 'Admin\PudosAdminController::insert');
+        $routes->put('', 'Admin\PudosAdminController::update');
+        $routes->delete('', 'Admin\PudosAdminController::delete');
+    });
     // Documents Category Route
     $routes->group('docscategory', static function ($routes) {
         $routes->get('', 'Admin\DocsCategoryAdminController::index');
         $routes->post('', 'Admin\DocsCategoryAdminController::save');
         $routes->put('', 'Admin\DocsCategoryAdminController::edit');
         $routes->delete('', 'Admin\DocsCategoryAdminController::delete');
+    });
+    // Pudos Category Route
+    $routes->group('pudoscategory', static function ($routes) {
+        $routes->get('', 'Admin\PudosCategoryAdminController::index');
+        $routes->post('', 'Admin\PudosCategoryAdminController::save');
+        $routes->put('', 'Admin\PudosCategoryAdminController::edit');
+        $routes->delete('', 'Admin\PudosCategoryAdminController::delete');
     });
     // Laporan Route
     $routes->group('laporan', static function ($routes) {

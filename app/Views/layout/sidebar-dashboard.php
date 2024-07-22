@@ -174,6 +174,18 @@
                     <li class="<?= ($title === "Category of Document") ? 'active' : '' ?>"><a href="/<?= session('role'); ?>/docscategory">Category</a></li>
                 </ul>
             </li>
+
+            <li class="droplink <?= ($title === "Semua Publikasi") ? 'active open' : '' ?><?= ($title === "Kategori Publikasi") ? 'active open' : '' ?>"><a
+                    href="/<?= session('role'); ?>/publikasi" class="waves-effect waves-button"><span
+                        class="menu-icon icon-star"></span>
+                    <p>Publikasi</p><span class="arrow"></span>
+                </a>
+                <ul class="sub-menu">
+                    <li class="<?= ($title === "Semua Publikasi") ? 'active' : '' ?>"><a href="/<?= session('role'); ?>/publikasi">Publikasi</a></li>
+                    <li class="<?= ($title === "Kategori Publikasi") ? 'active' : '' ?>"><a href="/<?= session('role'); ?>/pudoscategory">Category</a></li>
+                </ul>
+            </li>
+
             <li class="droplink <?= ($title === "Semua Laporan") ? 'active open' : '' ?><?= ($title === "Kategori Laporan") ? 'active open' : '' ?>"><a
                     href="/<?= session('role'); ?>/laporan" class="waves-effect waves-button"><span
                         class="menu-icon icon-eye"></span>

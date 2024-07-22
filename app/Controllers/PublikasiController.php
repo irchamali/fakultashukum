@@ -9,7 +9,7 @@ use App\Models\SiteModel;
 use App\Models\PublikasiModel;
 use App\Models\PudosModel;
 
-class PudosController extends BaseController
+class PublikasiController extends BaseController
 {
     public function __construct()
     {
@@ -25,10 +25,13 @@ class PudosController extends BaseController
             'site' => $this->siteModel->find(1),
             'home' => $this->homeModel->find(1),
             'about' => $this->aboutModel->find(1),
+            // 'documents' => $this->documentModel->findAll(),
             'documents' => $this->pudosModel->findAll(),
-            'title' => 'Publikasi Dosen',
-            'active' => 'Tentang'
+            // 'documents' => $this->docsModel->getAllDocs(),
+            'pager' => $this->pudosModel->pager,
+            'title' => 'Publikasi',
+            'active' => 'Publikasi'
         ];
-        return view('pages/pudos_view', $data);
+        return view('document_view', $data);
     }
 }
