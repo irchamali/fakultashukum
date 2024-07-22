@@ -3,8 +3,20 @@
 	<head>
 		<!-- meta tag -->
 		<meta charset="utf-8">
-		<title>Fakultas Hukum - Universitas Nahdlatul Ulama Indonesia</title>
+		<title><?= $title; ?> | Fakultas Hukum Unusia</title>
 		<meta name="description" content="">
+		<!-- SEO Tag -->
+		<link rel="canonical" href="<?= site_url(); ?>">
+		<meta property="og:locale" content="id_ID">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="<?= $title; ?> | <?= $site['site_name']; ?>">
+		<meta property="og:description" content="<?= $site['site_description']; ?>">
+		<meta property="og:url" content="<?= site_url(); ?>">
+		<meta property="og:site_name" content="<?= $site['site_name']; ?>">
+		<meta property="og:image" content="<?= base_url(''); ?>assets/backend/images/site/<?= $site['site_logo_big']; ?>">
+		<meta property="og:image:secure_url" content="<?= base_url(''); ?>assets/backend/images/site/<?= $site['site_logo_big']; ?>">
+		<meta property="og:image:width" content="560">
+		<meta property="og:image:height" content="315">
 		<!-- responsive tag -->
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">

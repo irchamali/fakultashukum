@@ -1,4 +1,4 @@
-<?= $this->extend('layouts/template-home'); ?>
+<?= $this->extend('layouts/template-page'); ?>
 <?= $this->section('content'); ?>            
 
 		<!-- Blog Section Start -->
