@@ -22,7 +22,7 @@ class CategoryDocsController extends BaseController
     public function index($slug = null)
     {
         if ($slug == null) {
-            return redirect()->to('/document');
+            return redirect()->to('/dokumen');
         }
         $documents = $this->docscategoryModel->getDocs_by_category($slug);
         if ($documents->getNumRows() < 1) {
@@ -37,12 +37,12 @@ class CategoryDocsController extends BaseController
             'home' => $this->homeModel->find(1),
             'about' => $this->aboutModel->find(1),
             'documents' => $this->docscategoryModel->getDocs_by_category($slug),
-            'title' => 'Document',
-            'url' => 'document',
+            'title' => 'Dokumen',
+            'url' => 'dokumen',
             'keyword' => $keyword,
             'documents' => $documents,
-            'active' => 'Document'
+            'active' => 'Dokumen'
         ];
-        return view('document_category', $data);
+        return view('dokumen_category', $data);
     }
 }

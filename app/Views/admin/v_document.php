@@ -60,9 +60,9 @@
                                         <thead>
                                             <tr>
                                                 <th>No</th>
-                                                <th>Name</th>
-                                                <th>Unit</th>
-                                                <th>No.SK</th>
+                                                <th>Dokumen</th>
+                                                <th>Pembuat</th>
+                                                <th>Nomor</th>
                                                 <th>Tahun</th>
                                                 <th>Category</th>
                                                 <th>Action</th>
@@ -134,10 +134,10 @@
                                     <input type="text" name="name" class="form-control" placeholder="Nama Dokumen" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="unit" class="form-control" placeholder="Nama Institusi/Lembaga/Unit/Fakultas/Prodi" required>
+                                    <input type="text" name="unit" class="form-control" placeholder="Pembuat" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="sk" class="form-control" placeholder="No.SK" required>
+                                    <input type="text" name="sk" class="form-control" placeholder="Nomor" required>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" name="year" class="form-control" placeholder="Tahun Pembuatan: YYYY" required>

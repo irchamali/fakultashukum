@@ -91,6 +91,7 @@ $routes->get('konsulhukum', 'XKonsulController::index');
 
 // DocumentController
 $routes->get('dokumen', 'DocumentController::index');
+$routes->get('dokumen/(:segment)', 'CategoryDocsController::index/$1');
 
 // LaporanController
 $routes->get('laporan', 'LaporanController::index');

@@ -29,9 +29,9 @@ class DocumentController extends BaseController
             'documents' => $this->docsModel->findAll(),
             // 'documents' => $this->docsModel->getAllDocs(),
             'pager' => $this->docsModel->pager,
-            'title' => 'Document',
-            'active' => 'Document'
+            'title' => 'Dokumen',
+            'active' => 'Dokumen'
         ];
-        return view('document_view', $data);
+        return view('dokumen_view', $data);
     }
 }

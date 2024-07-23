@@ -150,10 +150,10 @@
 															<li class="last-item menu-item-has-children">
 															    <a href="#">Dokumen Fakultas <i class="fi fi-rr-plus-small"></i></a>
 															    <ul class="sub-menu">
-															        <li><a href="<?= base_url(''); ?>dokumen">Semua dokumen</a></li>
+																	<li><a href="<?= base_url(''); ?>dokumen">Semua dokumen</a></li>
 															        <li><a href="<?= base_url(''); ?>dokumen/peraturan">Peraturan</a></li>
-																	<li><a href="<?= base_url(''); ?>dokumen/sk">SK</a></li>
-																	<li><a href="<?= base_url(''); ?>dokumen/sop">SOP</a></li>
+																	<li><a href="<?= base_url(''); ?>dokumen/keputusan">Keputusan</a></li>
+																	<li><a href="<?= base_url(''); ?>dokumen/panduan">Panduan</a></li>
 															    </ul>
 															</li>
 															<li><a href="<?= base_url(''); ?>riset">Penelitian</a></li>
@@ -348,8 +348,8 @@
 					    			    <ul class="sub-menu">
 											<li><a href="<?= base_url(''); ?>dokumen">Semua Dokumen</a></li>
 											<li><a href="<?= base_url(''); ?>dokumen/peraturan">Peraturan</a></li>
-											<li><a href="<?= base_url(''); ?>dokumen/sk">SK</a></li>
-											<li><a href="<?= base_url(''); ?>dokumen/sop">SOP</a></li>
+											<li><a href="<?= base_url(''); ?>dokumen/keputusan">Keputusan</a></li>
+											<li><a href="<?= base_url(''); ?>dokumen/panduan">Panduan</a></li>
 					    			    </ul>
 					    			</li>
 					    			<li><a href="<?= base_url(''); ?>riset">Penelitian</a></li>
@@ -449,7 +449,7 @@
 					    </div>
 					</nav>
 					<!-- Canvas Menu end -->
-					                              
+
 				</header>
 				<!--Header End-->
 			</div>
