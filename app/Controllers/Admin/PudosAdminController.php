@@ -46,7 +46,7 @@ class PudosAdminController extends BaseController
     public function insert()
     {
         if (!$this->validate([
-            'title' => [
+            'judul' => [
                 'rules' => 'required',
                 'errors' => [
                     'required' => 'Kolom {field} harus diisi!'
@@ -88,7 +88,7 @@ class PudosAdminController extends BaseController
             return redirect()->to('/admin/publikasi')->with('msg', 'error');
         }
         
-        $title = strip_tags(htmlspecialchars($this->request->getPost('title'), ENT_QUOTES));
+        $judul = strip_tags(htmlspecialchars($this->request->getPost('judul'), ENT_QUOTES));
         $name = strip_tags(htmlspecialchars($this->request->getPost('name'), ENT_QUOTES));
         $publisher = strip_tags(htmlspecialchars($this->request->getPost('publisher'), ENT_QUOTES));
         $year = strip_tags(htmlspecialchars($this->request->getPost('year'), ENT_QUOTES));
@@ -96,7 +96,7 @@ class PudosAdminController extends BaseController
         $category = strip_tags(htmlspecialchars($this->request->getPost('category'), ENT_QUOTES)); 
         // Simpan ke database
         $this->publikasiModel->save([
-            'pudos_title' => $title,
+            'pudos_title' => $judul,
             'pudos_name' => $name,
             'pudos_publisher' => $publisher,
             'pudos_year' => $year,
@@ -111,7 +111,7 @@ class PudosAdminController extends BaseController
         $pudos_id = $this->request->getPost('pudos_id'); 
         // Validasi
         if (!$this->validate([
-            'title' => [
+            'judul' => [
                 'rules' => 'required',
                 'errors' => [
                     'required' => 'Kolom {field} harus diisi!'
@@ -154,7 +154,7 @@ class PudosAdminController extends BaseController
             return redirect()->to('/admin/publikasi')->with('msg', 'error');
         }
         $pudos_id = strip_tags(htmlspecialchars($this->request->getPost('pudos_id'), ENT_QUOTES));
-        $title = strip_tags(htmlspecialchars($this->request->getPost('title'), ENT_QUOTES));
+        $judul = strip_tags(htmlspecialchars($this->request->getPost('judul'), ENT_QUOTES));
         $name = strip_tags(htmlspecialchars($this->request->getPost('name'), ENT_QUOTES));
         $publisher = strip_tags(htmlspecialchars($this->request->getPost('publisher'), ENT_QUOTES));
         $year = strip_tags(htmlspecialchars($this->request->getPost('year'), ENT_QUOTES));
@@ -165,7 +165,7 @@ class PudosAdminController extends BaseController
         //print_r($category);die();
 
         $this->publikasiModel->update($pudos_id, [
-            'pudos_title' => $title,
+            'pudos_title' => $judul,
             'pudos_name' => $name,
             'pudos_publisher' => $publisher,
             'pudos_year' => $year,

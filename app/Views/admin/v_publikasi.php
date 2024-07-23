@@ -54,13 +54,13 @@
                         <div class="panel panel-white">
 
                             <div class="panel-body">
-                                <button type="button" class="btn btn-success m-b-sm" data-toggle="modal" data-target="#myModal">Add New Document</button>
+                                <button type="button" class="btn btn-success m-b-sm" data-toggle="modal" data-target="#myModal">Add New Publication</button>
                                 <div class="table-responsive">
                                     <table id="mytable" class="display table" style="width: 100%; ">
                                         <thead>
                                             <tr>
                                                 <th>No</th>
-                                                <th>Title</th>
+                                                <th>Judul</th>
                                                 <th>Name</th>
                                                 <th>Publisher</th>
                                                 <th>Tahun</th>
@@ -118,20 +118,20 @@
     <div class="cd-overlay"></div>
 
     <!-- Modal Add-->
-    <form id="add-row-form" action="/<?= session('role'); ?>/document" method="POST" enctype="multipart/form-data">
+    <form id="add-row-form" action="/<?= session('role'); ?>/publikasi" method="POST" enctype="multipart/form-data">
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Add Document</h4>
+                        <h4 class="modal-title" id="myModalLabel">Add Publication</h4>
                     </div>
                     <div class="modal-body">
 
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <input type="text" name="title" class="form-control" placeholder="Judul publikasi" required>
+                                    <input type="text" name="judul" class="form-control" placeholder="Judul publikasi" required>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" name="name" class="form-control" placeholder="Nama Ybs" required>
@@ -140,7 +140,7 @@
                                     <input type="text" name="publisher" class="form-control" placeholder="Nama Publisher" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="year" class="form-control" placeholder="Tahun Pembuatan: YYYY" required>
+                                    <input type="text" name="year" class="form-control" placeholder="Tahun: YYYY" required>
                                 </div>
                                 <div class="form-group">
                                     <textarea type="url" name="link" class="form-control" placeholder="Link misal: https://drive.google.com/" required></textarea>
@@ -178,14 +178,14 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">Edit Document</h4>
+                            <h4 class="modal-title" id="myModalLabel">Edit Publication</h4>
                         </div>
                         <div class="modal-body">
 
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input type="text" name="title" value="<?= $row['pudos_title']; ?>" class="form-control" placeholder="Judul" required>
+                                        <input type="text" name="judul" value="<?= $row['pudos_title']; ?>" class="form-control" placeholder="Judul" required>
                                     </div>
                                     <div class="form-group">
                                         <input type="text" name="name" value="<?= $row['pudos_name']; ?>" class="form-control" placeholder="Nama ybs" required>
@@ -231,10 +231,10 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Delete Document</h4>
+                        <h4 class="modal-title" id="myModalLabel">Delete Publication</h4>
                     </div>
                     <div class="modal-body">
-                        <strong>Anda yakin mau menghapus document ini?</strong>
+                        <strong>Anda yakin mau menghapus publikasi ini?</strong>
                         <div class="form-group">
                             <input type="hidden" id="txt_kode" name="kode" class="form-control" required>
                         </div>
@@ -325,7 +325,7 @@
         <script type="text/javascript">
             $.toast({
                 heading: 'Success',
-                text: "New Document Saved!",
+                text: "New Publication Saved!",
                 showHideTransition: 'slide',
                 icon: 'success',
                 hideAfter: false,
@@ -337,7 +337,7 @@
         <script type="text/javascript">
             $.toast({
                 heading: 'Info',
-                text: "Document updated!",
+                text: "Publication updated!",
                 showHideTransition: 'slide',
                 icon: 'info',
                 hideAfter: false,
@@ -349,7 +349,7 @@
         <script type="text/javascript">
             $.toast({
                 heading: 'Success',
-                text: "Document Deleted!.",
+                text: "Publication Deleted!.",
                 showHideTransition: 'slide',
                 icon: 'success',
                 hideAfter: false,
