@@ -60,8 +60,8 @@
                                         <thead>
                                             <tr>
                                                 <th>No</th>
-                                                <th>Name</th>
-                                                <th>Unit</th>
+                                                <th>Judul</th>
+                                                <th>Nama</th>
                                                 <th>Tahun</th>
                                                 <th>Link</th>
                                                 <th>Category</th>
@@ -123,20 +123,20 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Tambahkan laporan</h4>
+                        <h4 class="modal-title" id="myModalLabel">Tambahkan data</h4>
                     </div>
                     <div class="modal-body">
 
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <input type="text" name="name" class="form-control" placeholder="Nama Dokumen" required>
+                                    <input type="text" name="name" class="form-control" placeholder="Judul" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="unit" class="form-control" placeholder="Nama Institusi/Lembaga/Unit/Fakultas/Prodi" required>
+                                    <input type="text" name="unit" class="form-control" placeholder="Nama Ybs" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="year" class="form-control" placeholder="Tahun Pembuatan: YYYY" required>
+                                    <input type="text" name="year" class="form-control" placeholder="Tahun: YYYY" required>
                                 </div>
                                 <div class="form-group">
                                     <textarea type="url" name="link" class="form-control" placeholder="Link misal: https://drive.google.com/" required></textarea>
@@ -181,13 +181,13 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input type="text" name="name" value="<?= $row['lap_name']; ?>" class="form-control" placeholder="Nama Dokumen" required>
+                                        <input type="text" name="name" value="<?= $row['lap_name']; ?>" class="form-control" placeholder="Judul" required>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" name="unit" value="<?= $row['lap_unit']; ?>" class="form-control" placeholder="Institusi/Lembaga/Unit/Fakultas/Prodi" required>
+                                        <input type="text" name="unit" value="<?= $row['lap_unit']; ?>" class="form-control" placeholder="Nama Ybs" required>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" name="year" value="<?= $row['lap_year']; ?>" class="form-control" placeholder="Tahun Pembuatan YYYY" required>
+                                        <input type="text" name="year" value="<?= $row['lap_year']; ?>" class="form-control" placeholder="Tahun: YYYY" required>
                                     </div>
                                     <div class="form-group">
                                         <textarea name="link" class="form-control" rows="2" placeholder="Share Link Google Drive" required><?= $row['lap_link']; ?></textarea>

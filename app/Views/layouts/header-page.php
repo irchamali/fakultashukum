@@ -152,6 +152,15 @@
 															        <li><a href="https://unusia.ac.id/prodi/s1hukumkeluarga">S1 Hukum Keluarga</a></li>
 															    </ul>
 															</li>
+															<li class="last-item menu-item-has-children">
+															    <a href="#">Dokumen Fakultas <i class="fi fi-rr-plus-small"></i></a>
+															    <ul class="sub-menu">
+															        <li><a href="<?= base_url(''); ?>dokumen">Semua dokumen</a></li>
+															        <li><a href="<?= base_url(''); ?>dokumen/peraturan">Peraturan</a></li>
+																	<li><a href="<?= base_url(''); ?>dokumen/sk">SK</a></li>
+																	<li><a href="<?= base_url(''); ?>dokumen/sop">SOP</a></li>
+															    </ul>
+															</li>
 															<li><a href="<?= base_url(''); ?>riset">Penelitian</a></li>
 															<li><a href="<?= base_url(''); ?>pkm">Pengabdian Masyarakat</a></li>
 															<li><a href="<?= base_url(''); ?>upm">Penjaminan Mutu</a></li>
@@ -259,7 +268,7 @@
 					    </div>
 					    <div class="rs-offcanvas-inner">
 					        <div class="canvas-logo">
-					            <a href="index3.html"><img src="<?= base_url(''); ?>assets/reno/images/logo-dark.png" alt="logo"></a>
+					            <a href="#"><img src="<?= base_url(''); ?>assets/reno/images/logo-dark.png" alt="logo"></a>
 					        </div>
 					        <div class="offcanvas-text">
 					            <p>Fakultas Hukum, Universitas Nahdlatul Ulama Indonesia</p>
@@ -337,6 +346,15 @@
 					    			    <ul class="sub-menu">
 											<li><a href="https://unusia.ac.id/prodi/s1ilmuhukum">S1 Ilmu Hukum</a></li>
 											<li><a href="https://unusia.ac.id/prodi/s1hukumkeluarga">S1 Hukum Keluarga</a></li>
+					    			    </ul>
+					    			</li>
+									<li class="last-item menu-item-has-children">
+					    			    <a href="#">Dokumen Fakultas</a>
+					    			    <ul class="sub-menu">
+											<li><a href="<?= base_url(''); ?>dokumen">Semua Dokumen</a></li>
+											<li><a href="<?= base_url(''); ?>dokumen/peraturan">Peraturan</a></li>
+											<li><a href="<?= base_url(''); ?>dokumen/sk">SK</a></li>
+											<li><a href="<?= base_url(''); ?>dokumen/sop">SOP</a></li>
 					    			    </ul>
 					    			</li>
 					    			<li><a href="<?= base_url(''); ?>riset">Penelitian</a></li>
@@ -435,7 +453,8 @@
 					          </div>
 					    </div>
 					</nav>
-					<!-- Canvas Menu end -->                             
+					<!-- Canvas Menu end -->
+					                              
 				</header>
 				<!--Header End-->
 			</div>

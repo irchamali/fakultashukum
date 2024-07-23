@@ -31,7 +31,7 @@
                                                             <th>No.</th>
                                                             <th>Tahun</th>
                                                             <th>Judul</th>
-                                                            <th>Dosen</th>                    
+                                                            <th>Mahasiswa</th>                    
                                                             <th>Kategori</th>
                                                             <th>Action</th>
                                                         </tr>

@@ -155,10 +155,10 @@
 															<li class="last-item menu-item-has-children">
 															    <a href="#">Dokumen Fakultas <i class="fi fi-rr-plus-small"></i></a>
 															    <ul class="sub-menu">
-															        <li><a href="">Semua dokumen</a></li>
-															        <li><a href="">Peraturan</a></li>
-																	<li><a href="">SK</a></li>
-																	<li><a href="">SOP</a></li>
+															        <li><a href="<?= base_url(''); ?>dokumen">Semua dokumen</a></li>
+															        <li><a href="<?= base_url(''); ?>dokumen/peraturan">Peraturan</a></li>
+																	<li><a href="<?= base_url(''); ?>dokumen/sk">SK</a></li>
+																	<li><a href="<?= base_url(''); ?>dokumen/sop">SOP</a></li>
 															    </ul>
 															</li>
 															<li><a href="<?= base_url(''); ?>riset">Penelitian</a></li>
@@ -268,7 +268,7 @@
 					    </div>
 					    <div class="rs-offcanvas-inner">
 					        <div class="canvas-logo">
-					            <a href="index3.html"><img src="<?= base_url(''); ?>assets/reno/images/logo-dark.png" alt="logo"></a>
+					            <a href="#"><img src="<?= base_url(''); ?>assets/reno/images/logo-dark.png" alt="logo"></a>
 					        </div>
 					        <div class="offcanvas-text">
 					            <p>Fakultas Hukum, Universitas Nahdlatul Ulama Indonesia</p>
@@ -351,10 +351,10 @@
 									<li class="last-item menu-item-has-children">
 					    			    <a href="#">Dokumen Fakultas</a>
 					    			    <ul class="sub-menu">
-											<li><a href="">Semua Dokumen</a></li>
-											<li><a href="">Peraturan</a></li>
-											<li><a href="">SK</a></li>
-											<li><a href="">SOP</a></li>
+											<li><a href="<?= base_url(''); ?>dokumen">Semua Dokumen</a></li>
+											<li><a href="<?= base_url(''); ?>dokumen/peraturan">Peraturan</a></li>
+											<li><a href="<?= base_url(''); ?>dokumen/sk">SK</a></li>
+											<li><a href="<?= base_url(''); ?>dokumen/sop">SOP</a></li>
 					    			    </ul>
 					    			</li>
 					    			<li><a href="<?= base_url(''); ?>riset">Penelitian</a></li>
